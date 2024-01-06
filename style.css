@@ -1,1 +1,469 @@
-
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+#page1{
+    height: 100vh;
+}
+#page2{
+    background-color: black;
+    height: 50vh;
+}
+#page3{
+    height: 50vh;
+}
+#page4{
+    background-color: black;
+    height: 76vh;
+}
+#page5{
+    height: 50vh;
+    background-color: rgb(47, 47, 48);
+}
+.center1a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center1b{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p11{
+    padding-left: 60px;
+}
+.p12{
+    padding-top: 10px;
+    height: 5vh;
+    width: 56vw;
+}
+.p13{
+    margin-top: 50px;
+    font-size: 1.2vw;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.9vmin;
+}
+nav a:nth-child(1):hover{
+    opacity: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    color: blue;
+    transition:50ms;
+    font-weight: bold;
+}
+nav a:nth-child(2):hover{
+    opacity: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    color: blue;
+    transition:50ms;
+    font-weight: bold;
+}
+nav a:nth-child(3):hover{
+    opacity: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    color: blue;
+    transition:50ms;
+    font-weight: bold;
+}
+nav a:nth-child(4):hover{
+    opacity: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    color: blue;
+    transition:50ms;
+    font-weight: bold;
+}
+#span_name{
+    color: blue;
+}
+#span_cs, #span_e{
+    color: purple;
+}
+#photo{
+    border-radius: 10cm;
+    width: 36vw;
+}
+#contact_me_button{
+    font-size: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    height: 8vh;
+    width: 17vmin;
+}
+#resume_button{
+    font-size: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    color: white;
+    height: 8vh;
+    width: 17vmin;
+}
+#contact_me_button:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgb(1, 81, 255);
+    background-color: rgb(72, 75, 255);
+}
+#resume_button:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgb(175, 1, 255);
+    background-color: rgb(158, 30, 233);
+}
+.contact_resume{
+    margin-top: 110px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    margin-top: 35px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+#linkedin{
+    border: 1mm solid black;
+    border-radius: 10cm;
+    width: 40px;
+    object-fit: cover;
+}
+#telegram{
+    border: 1mm solid black;
+    border-radius: 10cm;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+#mail{
+    border: 1mm solid black;
+    border-radius: 10cm;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+#git{
+    border: 1mm solid black;
+    border-radius: 10cm;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+/*-----------------------------*/
+#head_about_me{
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 26px;
+}
+#para_about_me{
+    color: white;
+    margin: 80px 100px 100px 100px;
+    font-size: 22px;
+    width: fit-content;
+}
+/*----------------------------*/
+#head_skill{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 26px;
+}
+.lang_div{
+    padding-left: 85px;
+    display: flex;
+    width: fit-content;
+}
+.language{
+    display: flex;
+    width: 5.5vw;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 88px;
+}
+.l1_div{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+}
+.l1{
+    width: 3.5vw;
+    object-fit: contain;
+    display: flex;
+    cursor: pointer;
+}
+.l1:hover{
+    width: 4.5vw;
+    transition: 50ms;
+}
+.l1_title{
+    font-size: 1.6vw;
+}
+/*------------------------------------*/
+#head_education{
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 26px;
+}
+.education_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.school_div{
+    background-color: white;
+    width: 300px;
+    text-align: start;
+    border-radius: 5mm;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.school_div:hover{
+    box-shadow: 0px 10px 30px rgb(202, 202, 202);
+}
+#school_photo{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 4mm;
+}
+#year{
+    font-size: 20px;
+    text-align: center;
+    color: blue; 
+    font-weight: 700;
+}
+#school_name{
+    font-size: 17px; 
+    color: purple; 
+    font-weight: 700;
+    padding-left: 10px;
+}
+#degree{
+    font-size: 15px; 
+    font-weight: 700;
+    padding-left: 10px;
+}
+#university{
+    font-size: 13px;
+    padding-left: 10px;
+}
+#grade{
+    font-weight: 700;
+    padding-left: 10px;
+}
+#grade_span{
+    color: purple; 
+    font-weight: 700;
+}
+/* --------------------------------------------- */
+#head_project{
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 26px;
+}
+.project_div{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4mm;
+}
+.project{
+    width: 230px;
+    border-radius: 4mm;
+    background-color: #fff;
+    cursor: pointer;
+}
+.project:hover{
+    box-shadow: 0px 10px 20px #fff;
+}
+#project_photo{
+    width: 230px;
+    border-radius: 4mm;
+}
+#project_desc{
+    color: purple;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#project_desc2_span{
+    font-size: 17px;
+    color: blue;
+}
+#project_desc2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* --------------------------------------------- */
+@media (max-width:1200px){
+    #contact_me_button{
+        font-size: 15px;
+        width: 130px;
+        height: 50px;
+    }
+    #resume_button{
+        font-size: 15px;
+        width: 130px;
+        height: 50px;
+    }
+    nav{
+        width: 55vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .p12 nav a{
+        font-size: 20px;
+    }
+    .p13{
+        margin-top: 70px;
+        font-size: 14px;
+    }
+    #photo{
+        width: 45vw;
+        margin-bottom: 190px;
+    }
+    .contact_resume{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #para_about_me{
+        color: white;
+        margin: 55px 100px 100px 100px;
+        font-size: 18px;
+    }
+    #page4{
+        height: 140vh;
+    }
+}
+/* --------------------------------------------- */
+@media (max-height:600px){
+    #page1{
+        height: 750px;
+    }
+    #page2{
+        height: 390px;
+    }
+    #page4{
+        height: 300vh;
+    }
+}
+/* --------------------------------------------- */
+@media (max-width:600px){
+    html{
+        width: 145%;
+    }
+    .p11{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .p12 nav a{
+        font-size: 14px;
+    }
+    .p13{
+        margin-top: 0px;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    #photo{
+        width: 260px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .center1a{
+        justify-content: left;
+    }
+    .center1b{
+        padding-top: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .contact_resume{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .btns{
+        margin-top: 0px;
+    }
+    nav{
+        padding-top: 5px;
+        margin-left: 60px;
+        width: 330px;
+        justify-content: space-between;
+    }
+    #head_about_me{
+        color: white;
+        padding-top: 30px;
+        padding-left: 50px;
+        font-size: 26px;
+        font-weight: 300;
+    }
+    #para_about_me{
+        color: white;
+        margin: 50px;
+        font-size: 20px;
+        
+    }
+    #page2{
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    #page4{
+        height: 200vh;
+    }
+    #head_skill{
+        padding-left: 50px;
+    }
+    .lang_div{
+        height: 250px;
+        width: 450px;
+        padding-left: 1px;
+        margin-left: 10px;
+    }
+    .language{
+        width: 7.5vw;
+        padding-left: 40px;
+    }
+    .l1{
+        width: 7vh;
+    }
+    .l1:hover{
+        width: 10vh;
+    }
+    .l1_div{
+        padding-top: 2.5vh;
+    }
+    .l1_title{
+        font-size: 4.4vw;
+        font-weight: 700;
+    }
+    #head_education{
+        padding-left: 55px;
+    }
+    #head_project{
+        padding-left: 55px;
+    }
+}
+/*--------------------------------------------*/
+@media (max-height:650px){
+    .p11{
+        margin-top: 10px;
+    }
+    #page4{
+        height: 240vh;
+    }
+}
